@@ -40,10 +40,9 @@ if user_input == Y:
     print("Hi hi!")
     while True:
         ob.start_thread()
-        print("Light values:", photoResistor)
-        sleep(2)
-        print("Fan speed:", fan_speed)
-        sleep(2)
+        print("Light values:", ob.photoResistor)
+        print("Fan speed:", ob.fan_speed)
+        sleep(4)
 
 else:
     print("Bye bye")
